@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<instrument>
+  <samplerate>44100</samplerate>
+  <plate name="plat1">
+    <material>steel</material>
+    <thickness>0.002</thickness>
+    <tension>10.0</tension>
+    <lx>1.5</lx>
+    <ly>1.5</ly>
+    <t60_0>10.0</t60_0>
+    <t60_1000>6.0</t60_1000>
+    <boundaryCondition>4</boundaryCondition>
+  </plate>
+  <plate name="plat2">
+    <material>steel</material>
+    <thickness>0.002</thickness>
+    <tension>10.0</tension>
+    <lx>1.5</lx>
+    <ly>1.5</ly>
+    <t60_0>10.0</t60_0>
+    <t60_1000>6.0</t60_1000>
+    <boundaryCondition>4</boundaryCondition>
+  </plate>
+  <plate name="plat3">
+    <material>steel</material>
+    <thickness>0.002</thickness>
+    <tension>10.0</tension>
+    <lx>1.5</lx>
+    <ly>1.5</ly>
+    <t60_0>10.0</t60_0>
+    <t60_1000>6.0</t60_1000>
+    <boundaryCondition>4</boundaryCondition>
+  </plate>
+  <plate name="plat4">
+    <material>steel</material>
+    <thickness>0.002</thickness>
+    <tension>10.0</tension>
+    <lx>1.5</lx>
+    <ly>1.5</ly>
+    <t60_0>10.0</t60_0>
+    <t60_1000>6.0</t60_1000>
+    <boundaryCondition>4</boundaryCondition>
+  </plate>
+
+  <connection>
+    <component>plat1</component>
+    <component>plat2</component>
+    <x1>0.8</x1>
+    <y1>0.4</y1>
+    <x2>0.6</x2>
+    <y2>0.7</y2>
+    <linearStiffness>10000.0</linearStiffness>
+    <nonLinearStiffness>10000000.0</nonLinearStiffness>
+    <t60>1000000.0</t60>
+  </connection>
+  <connection>
+    <component>plat3</component>
+    <component>plat2</component>
+    <x1>0.8</x1>
+    <y1>0.4</y1>
+    <x2>0.6</x2>
+    <y2>0.7</y2>
+    <linearStiffness>10000.0</linearStiffness>
+    <nonLinearStiffness>10000000.0</nonLinearStiffness>
+    <t60>1000000.0</t60>
+  </connection>
+  <connection>
+    <component>plat3</component>
+    <component>plat4</component>
+    <x1>0.8</x1>
+    <y1>0.4</y1>
+    <x2>0.6</x2>
+    <y2>0.7</y2>
+    <linearStiffness>10000.0</linearStiffness>
+    <nonLinearStiffness>10000000.0</nonLinearStiffness>
+    <t60>1000000.0</t60>
+  </connection>
+
+  <output>
+    <component>plat1</component>
+    <x>0.2</x>
+    <y>0.5</y>
+    <pan>-1.0</pan>
+  </output>
+</instrument>

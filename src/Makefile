@@ -1,0 +1,45 @@
+CC=gcc
+CXX=g++
+COMMONDIR=lib
+EXE=../ness-framework
+CFLAGS=-I$(COMMONDIR) -Wno-write-strings -O3 -DUSE_SSE `xml2-config --cflags` -DUSE_AVX
+LDFLAGS=-lpthread `xml2-config --libs`
+CPPSOURCES=Airbox.cpp AirboxIndexed.cpp Bar.cpp BowedString.cpp BrassInstrument.cpp BrassInstrument_avx.cpp BreakpointFunction.cpp Component.cpp Component1D.cpp Component2D.cpp Component3D.cpp ComponentString.cpp Connection.cpp ConnectionNet1.cpp ConnectionP2P.cpp ConnectionZero.cpp ConnectionZeroPt1.cpp Embedding.cpp Fretboard.cpp GlobalSettings.cpp GuitarString.cpp Input.cpp InputBow.cpp InputLips.cpp InputModalSine.cpp InputModalStrike.cpp InputPluck.cpp InputSample.cpp InputStrike.cpp InputValve.cpp InputWav.cpp Instrument.cpp InstrumentParser.cpp InstrumentParserBowedString.cpp InstrumentParserBrass.cpp InstrumentParserGuitar.cpp InstrumentParserModal.cpp InstrumentParserMP3D.cpp InstrumentParserSoundboard.cpp InstrumentParserXML.cpp InstrumentParserZero.cpp InstrumentParserZeroPt1.cpp Logger.cpp Material.cpp MaterialsManager.cpp MatlabFunction.cpp MatlabFunction_ClusterGen.cpp MatlabFunction_FretDefGen.cpp MatlabFunction_PluckGen.cpp MatlabFunction_StringDefGen.cpp MatlabFunction_StrumGen.cpp MatlabFunction_StrumGenMulti.cpp MatlabParser.cpp MathUtil.cpp ModalPlate.cpp ModalPlate_avx.cpp Output.cpp OutputDifference.cpp OutputModal.cpp OutputPressure.cpp Parser.cpp Plate.cpp PlateEmbedded.cpp Profiler.cpp ScoreParser.cpp ScoreParserBowedString.cpp ScoreParserBrass.cpp ScoreParserGuitar.cpp ScoreParserModal.cpp ScoreParserMP3D.cpp ScoreParserSoundboard.cpp ScoreParserXML.cpp ScoreParserZero.cpp ScoreParserZeroPt1.cpp SettingsManager.cpp SoundBoard.cpp StringWithFrets.cpp Task.cpp TaskModalPlateEnd.cpp TaskModalPlateRow.cpp TaskWholeComponent.cpp TaskWholeConnection.cpp WavReader.cpp WavWriter.cpp WorkerThread.cpp main.cpp
+CSOURCES=matgen.c
+OBJECTS=$(CPPSOURCES:.cpp=.o) $(CSOURCES:.c=.o)
+COMMONOBJS=$(COMMONDIR)/csrmatrix.o $(COMMONDIR)/arralloc.o $(COMMONDIR)/pcg.o $(COMMONDIR)/sse.o $(COMMONDIR)/banded.o
+
+all: $(EXE)
+
+$(EXE): $(OBJECTS) $(COMMONOBJS)
+	$(CXX) -o $(EXE) $(OBJECTS) $(COMMONOBJS) $(LDFLAGS)
+
+BrassInstrument_avx.o: BrassInstrument_avx.cpp
+	$(CXX) -c $< -o $@ $(CFLAGS) -mavx
+
+ModalPlate_avx.o: ModalPlate_avx.cpp
+	$(CXX) -c $< -o $@ $(CFLAGS) -mavx
+
+.cpp.o:
+	$(CXX) -c $< -o $@ $(CFLAGS)
+
+.c.o:
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+clean:
+	rm -f $(OBJECTS) $(COMMONOBJS) $(EXE)
+
+$(COMMONDIR)/csrmatrix.o: $(COMMONDIR)/csrmatrix.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+$(COMMONDIR)/arralloc.o: $(COMMONDIR)/arralloc.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+$(COMMONDIR)/pcg.o: $(COMMONDIR)/pcg.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+$(COMMONDIR)/banded.o: $(COMMONDIR)/banded.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+$(COMMONDIR)/sse.o: $(COMMONDIR)/sse.c
+	$(CC) -c $< -o $@ $(CFLAGS)

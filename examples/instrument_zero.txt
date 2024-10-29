@@ -1,0 +1,12 @@
+# set 44100Hz sampling rate
+samplerate 44100
+
+# define a steel plate
+plate plat1 steel 0.002 0.0 0.3 0.2 10.0 6.0 4  
+
+# define a connection from one point on the plate to another
+connection plat1 plat1 0.8 0.4 0.6 0.7 10000.0 10000000.0 1000000.0
+
+# define two outputs from the plate
+output plat1 0.9 0.6 -1.0
+output plat1 0.3 0.7 1.0

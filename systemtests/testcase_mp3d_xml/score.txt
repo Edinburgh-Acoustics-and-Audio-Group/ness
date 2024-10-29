@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<score>
+  <duration>0.1</duration>
+  <strike>
+    <startTime>2.2675737e-4</startTime>
+    <component>plat1</component>
+    <x>0.6653034</x>
+    <y>0.3507947</y>
+    <duration>0.007233560090703</duration>
+    <amplitude>1000.0</amplitude>
+  </strike>
+  <strike>
+    <startTime>0.22684807256236</startTime>
+    <component>plat2</component>
+    <x>0.5177853</x>
+    <y>0.41139928754</y>
+    <duration>0.006507936507936508</duration>
+    <amplitude>500.0</amplitude>
+  </strike>
+  <strike>
+    <startTime>0.4546031746031746</startTime>
+    <component>plat3</component>
+    <x>0.68823711</x>
+    <y>0.363045233</y>
+    <duration>0.00780045351473923</duration>
+    <amplitude>500.0</amplitude>
+  </strike>
+</score>

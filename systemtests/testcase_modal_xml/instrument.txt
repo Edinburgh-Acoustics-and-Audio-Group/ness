@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<instrument>
+  <modalPlate name="plat1">
+    <poissonsRatio>0.3</poissonsRatio>
+    <density>7860.0</density>
+    <youngsModulus>2e11</youngsModulus>
+    <h>8.5e-4</h>
+    <lx>0.25</lx>
+    <ly>0.21</ly>
+    <A>10</A>
+    <DIM>120</DIM>
+  </modalPlate>
+  <output>
+    <component>plat1</component>
+    <x>0.671</x>
+    <y>0.482</y>
+    <pan>0.0</pan>
+  </output>
+</instrument>

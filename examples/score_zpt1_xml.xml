@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<score>
+  <duration>2.0</duration>
+  <strike>
+    <component>plat1</component>
+    <startTime>0.0</startTime>
+    <x>0.2</x>
+    <y>0.8</y>
+    <duration>0.002</duration>
+    <amplitude>500</amplitude>
+  </strike>
+</score>

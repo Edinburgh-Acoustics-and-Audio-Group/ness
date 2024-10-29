@@ -1,0 +1,34 @@
+# Score for the zero Point 1 example instrument
+# Single strike
+#
+#
+# Format:
+# strike <start time> <component> <X> <Y> <duration> <amplitude>
+# bow <start time> <component> <X> <Y> <duration> <force amplitude>
+#      <velocity amplitude> <friction> <ramp time>
+# audio <filename> <start time> <component> <X> <Y> <gain>
+# 
+# duration <duration>
+# highpass [on|off]
+#
+# 
+# For more information see http://www.ness-music.eu/user-documentation
+#
+#######################################################################
+
+
+# High pass filter
+highpass off
+
+# Simulation length (secs)
+duration 4.0
+
+# Gesture
+strike 0.1 plat1 0.2 0.8 0.002 500
+strike 0.3 plat2 0.8 0.6 0.002 700
+strike 0.5 plat3 0.9 0.5 0.002 300
+strike 0.6 plat4 0.1 0.3 0.002 900
+strike 0.9 plat5 0.2 0.1 0.002 1000
+
+# Audio input to instrument
+audio input_zpt1.wav 1.5 plat1 0.2 0.3 1

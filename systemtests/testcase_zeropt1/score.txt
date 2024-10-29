@@ -1,0 +1,4 @@
+highpass off
+duration 0.1
+
+strike 0.0 plat1 0.2 0.8 0.002 500

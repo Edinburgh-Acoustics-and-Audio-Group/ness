@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<score>
+  <duration>2.0</duration>
+  <strike>
+    <component>string1</component>
+    <startTime>0.001</startTime>
+    <duration>0.001505957051665</duration>
+    <amplitude>5.736077649819015</amplitude>
+    <x>0.929263623187228</x>
+  </strike>
+  <pluck>
+    <component>string2</component>
+    <startTime>0.002</startTime>
+    <duration>0.001699076722657</duration>
+    <amplitude>3.693122214143396</amplitude>
+    <x>0.349983765984809</x>
+  </pluck>
+  <strike>
+    <component>string3</component>
+    <startTime>0.003</startTime>
+    <duration>0.001890903252536</duration>
+    <amplitude>3.746470027795287</amplitude>
+    <x>0.196595250431208</x>
+  </strike>
+  <pluck>
+    <component>string4</component>
+    <startTime>0.004</startTime>
+    <duration>0.001959291425205</duration>
+    <amplitude>4.287541270618682</amplitude>
+    <x>0.251083857976031</x>
+  </pluck>
+</score>

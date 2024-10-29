@@ -1,0 +1,10 @@
+# Each line of this file contains the properties of a material that can be used
+# in some of the models. The parameters are name, Young's Modulus, Poisson's
+# Ratio and density, separated by spaces.
+
+steel 2e11 0.3 7850
+aluminium 7e10 0.35 2700
+lead 1.6e10 0.44 11340
+uranium 20.8e10 0.23 19050
+gold 7.8e10 0.44 19300
+titanium 11.6e10 0.32 4507

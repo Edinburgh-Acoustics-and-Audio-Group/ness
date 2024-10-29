@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<instrument>
+  <samplerate>48000</samplerate>
+  <guitar>
+    <guitarString name="string1">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>12.1</tension>
+      <radius>0.0002</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string2">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>12.3</tension>
+      <radius>0.00015</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string3">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>21.9</tension>
+      <radius>0.00015</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string4">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>39.2</tension>
+      <radius>0.00015</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>7</T60_1000>
+    </guitarString>
+    <guitarString name="string5">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>27.6</tension>
+      <radius>0.0001</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string6">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>49.2</tension>
+      <radius>0.0001</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>8</T60_1000>
+    </guitarString>
+
+
+    <backboard>
+      <b0>-0.002</b0>
+      <b1>-0.001</b1>
+      <b2>-0.0002</b2>
+    </backboard>
+    <fret>
+      <pos>0.056125687318306</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.109101281859661</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.159103584746285</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.206299474015900</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.250846461561659</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.292893218813453</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.332580072914983</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.370039475052563</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.405396442498639</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.438768975845313</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.470268452820352</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.500000000000000</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.528062843659153</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.554550640929830</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.579551792373143</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.603149737007950</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.625423230780830</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.646446609406726</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.666290036457491</pos>
+      <height>-0.001</height>
+    </fret>
+    <fret>
+      <pos>0.685019737526282</pos>
+      <height>-0.001</height>
+    </fret>
+    <Kb>1e10</Kb>
+    <alphab>1.3</alphab>
+    <betab>10.0</betab>
+    <finger>
+      <Mf>0.005</Mf>
+      <Kf>1e7</Kf>
+      <alphaf>3.3</alphaf>
+      <betaf>100.0</betaf>
+    </finger>
+  </guitar>
+
+  <output interpolated="true">
+    <component>string1</component>
+    <x>0.9</x>
+    <pan>-1.0</pan>
+  </output>
+  <output interpolated="true">
+    <component>string2</component>
+    <x>0.9</x>
+    <pan>-0.67</pan>
+  </output>
+  <output interpolated="true">
+    <component>string3</component>
+    <x>0.9</x>
+    <pan>-0.33</pan>
+  </output>
+  <output interpolated="true">
+    <component>string4</component>
+    <x>0.9</x>
+    <pan>0.33</pan>
+  </output>
+  <output interpolated="true">
+    <component>string5</component>
+    <x>0.9</x>
+    <pan>0.67</pan>
+  </output>
+  <output interpolated="true">
+    <component>string6</component>
+    <x>0.9</x>
+    <pan>1.0</pan>
+  </output>
+</instrument>

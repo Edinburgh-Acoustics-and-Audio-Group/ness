@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<score>
+  <duration>3.0</duration>
+
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>0.01</startTime>
+    <duration>0.001166906592124</duration>
+    <amplitude>1.180818922727965</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>0.0225</startTime>
+    <duration>0.001442777173122</duration>
+    <amplitude>1.423197523158096</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>0.035</startTime>
+    <duration>0.001632993568362</duration>
+    <amplitude>0.652834142252458</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>0.0475</startTime>
+    <duration>0.001929967171592</duration>
+    <amplitude>0.905720793714528</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>0.06</startTime>
+    <duration>0.001529330969398</duration>
+    <amplitude>0.812475998842778</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>0.0725</startTime>
+    <duration>0.001626474423948</duration>
+    <amplitude>1.193898958369994</amplitude>
+  </pluck>
+
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>0.26</startTime>
+    <duration>0.001890687873399</duration>
+    <amplitude>1.396829007264381</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>0.2725</startTime>
+    <duration>0.001490670966287</duration>
+    <amplitude>1.176120081005331</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>0.285</startTime>
+    <duration>0.001805823509417</duration>
+    <amplitude>1.328396948330795</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>0.2975</startTime>
+    <duration>0.001326438909311</duration>
+    <amplitude>0.610088847733172</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>0.31</startTime>
+    <duration>0.001549879145126</duration>
+    <amplitude>0.779227334556401</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>0.3225</startTime>
+    <duration>0.001388784334891</duration>
+    <amplitude>1.267636165697467</amplitude>
+  </pluck>
+
+
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>0.51</startTime>
+    <duration>0.001216056596066</duration>
+    <amplitude>0.859553044905957</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>0.5225</startTime>
+    <duration>0.001034062128172</duration>
+    <amplitude>0.526838628962256</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>0.535</startTime>
+    <duration>0.001436551897742</duration>
+    <amplitude>1.000419192257721</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>0.5475</startTime>
+    <duration>0.001936863710409</duration>
+    <amplitude>1.327014907580009</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>0.56</startTime>
+    <duration>0.001262088962809</duration>
+    <amplitude>0.758982420521299</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>0.5725</startTime>
+    <duration>0.001569745499842</duration>
+    <amplitude>0.545885006637271</amplitude>
+  </pluck>
+
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>0.76</startTime>
+    <duration>0.001246471604098</duration>
+    <amplitude>0.891118812134764</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>0.7725</startTime>
+    <duration>0.001660732144629</duration>
+    <amplitude>0.533505259662504</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>0.785</startTime>
+    <duration>0.001329409691117</duration>
+    <amplitude>0.906015402500669</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>0.7975</startTime>
+    <duration>0.001659496247567</duration>
+    <amplitude>1.216307636801179</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>0.81</startTime>
+    <duration>0.001013004124267</duration>
+    <amplitude>1.421336414781854</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>0.8225</startTime>
+    <duration>0.001718067856677</duration>
+    <amplitude>1.484015743254487</amplitude>
+  </pluck>
+
+
+
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>1.01</startTime>
+    <duration>0.001983420872823</duration>
+    <amplitude>0.627122506592021</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>1.0225</startTime>
+    <duration>0.001896306092986</duration>
+    <amplitude>1.154620743083901</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>1.035</startTime>
+    <duration>0.001865703209613</duration>
+    <amplitude>1.363964912060125</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>1.0475</startTime>
+    <duration>0.001800960972217</duration>
+    <amplitude>0.774598434868982</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>1.06</startTime>
+    <duration>0.001554978851488</duration>
+    <amplitude>1.340163937389387</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>1.0725</startTime>
+    <duration>0.001418872147517</duration>
+    <amplitude>0.570755244269348</amplitude>
+  </pluck>
+
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>1.26</startTime>
+    <duration>0.001378792075062</duration>
+    <amplitude>0.998673989242012</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>1.2725</startTime>
+    <duration>0.001268169433832</duration>
+    <amplitude>1.238608516725420</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>1.285</startTime>
+    <duration>0.001152921178785</duration>
+    <amplitude>0.512755668892272</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>1.2975</startTime>
+    <duration>0.001630999579923</duration>
+    <amplitude>1.105353188516465</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>1.31</startTime>
+    <duration>0.001316374816239</duration>
+    <amplitude>1.076451321456248</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>1.3225</startTime>
+    <duration>0.001959111852530</duration>
+    <amplitude>1.307378820903336</amplitude>
+  </pluck>
+
+
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>1.51</startTime>
+    <duration>0.001654968061519</duration>
+    <amplitude>0.560705104223965</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>1.5225</startTime>
+    <duration>0.001878228395135</duration>
+    <amplitude>0.889827192453456</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>1.535</startTime>
+    <duration>0.001902372925442</duration>
+    <amplitude>0.799965854261437</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>1.5475</startTime>
+    <duration>0.001152232856673</duration>
+    <amplitude>1.234179906575914</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>1.56</startTime>
+    <duration>0.001192580086807</duration>
+    <amplitude>0.604209253757311</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>1.5725</startTime>
+    <duration>0.001790975648641</duration>
+    <amplitude>1.292575487554153</amplitude>
+  </pluck>
+
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>1.76</startTime>
+    <duration>0.001782728942752</duration>
+    <amplitude>0.562042492509529</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>1.7725</startTime>
+    <duration>0.001532397693219</duration>
+    <amplitude>0.629611982278315</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>1.785</startTime>
+    <duration>0.001253352341821</duration>
+    <amplitude>0.950614072287436</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>1.7975</startTime>
+    <duration>0.001070954585012</duration>
+    <amplitude>1.172335843922578</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>1.81</startTime>
+    <duration>0.001625803331171</duration>
+    <amplitude>1.356110833478116</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>1.8225</startTime>
+    <duration>0.001024681470129</duration>
+    <amplitude>0.998445424254591</amplitude>
+  </pluck>
+
+
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>2.01</startTime>
+    <duration>0.001048784504036</duration>
+    <amplitude>1.318434615976952</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>2.0225</startTime>
+    <duration>0.001313832359873</duration>
+    <amplitude>1.095128292529225</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>2.035</startTime>
+    <duration>0.001641631167721</duration>
+    <amplitude>1.036424608918200</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>2.0475</startTime>
+    <duration>0.001786386643615</duration>
+    <amplitude>0.830873140619941</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>2.06</startTime>
+    <duration>0.001289150493176</duration>
+    <amplitude>0.911690226251413</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>2.0725</startTime>
+    <duration>0.001497868010687</duration>
+    <amplitude>1.294006240687227</amplitude>
+  </pluck>
+
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x>
+    <startTime>2.26</startTime>
+    <duration>0.001343208220509</duration>
+    <amplitude>0.991113748307781</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x>
+    <startTime>2.2725</startTime>
+    <duration>0.001462606735967</duration>
+    <amplitude>0.898458234911806</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x>
+    <startTime>2.285</startTime>
+    <duration>0.001367823667800</duration>
+    <amplitude>0.977484208997986</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string3</component>
+    <x>0.8</x>
+    <startTime>2.2975</startTime>
+    <duration>0.001679570619604</duration>
+    <amplitude>0.566587622951606</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x>
+    <startTime>2.31</startTime>
+    <duration>0.001567779031871</duration>
+    <amplitude>0.911028487183606</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string1</component>
+    <x>0.8</x>
+    <startTime>2.3225</startTime>
+    <duration>0.001651776846131</duration>
+    <amplitude>1.469091958454476</amplitude>
+  </pluck>
+</score>

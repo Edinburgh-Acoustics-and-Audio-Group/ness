@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<instrument>
+  <samplerate>48000</samplerate>
+  <guitar>
+    <guitarString name="string1">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>12.1</tension>
+      <radius>0.0002</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string2">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>12.3</tension>
+      <radius>0.00015</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string3">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>21.9</tension>
+      <radius>0.00015</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string4">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>39.2</tension>
+      <radius>0.00015</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>7</T60_1000>
+    </guitarString>
+    <guitarString name="string5">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>27.6</tension>
+      <radius>0.0001</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>5</T60_1000>
+    </guitarString>
+    <guitarString name="string6">
+      <length>0.68</length>
+      <youngsModulus>2e11</youngsModulus>
+      <tension>49.2</tension>
+      <radius>0.0001</radius>
+      <density>7850</density>
+      <T60_0>15</T60_0>
+      <T60_1000>8</T60_1000>
+    </guitarString>
+
+    <connection>
+      <mass>0.003784982188670</mass>
+      <frequency>10571.66948242946</frequency>
+      <loss>12.922073295595544</loss>
+      <collisionExponent>2.357470309715547</collisionExponent>
+      <rattlingDistance>0.00000706046088019609</rattlingDistance>
+      <component>string1</component>
+      <x1>0.694828622975817</x1>
+    </connection>
+
+    <connection>
+      <mass>0.006468815192050</mass>
+      <frequency>5853.75648722841</frequency>
+      <loss>14.594924263929030</loss>
+      <collisionExponent>2.515480261156667</collisionExponent>
+      <rattlingDistance>0.00000031832846377421</rattlingDistance>
+      <component>string2</component>
+      <x1>0.317099480060861</x1>
+      <component>string1</component>
+      <x2>0.795199901137063</x2>
+    </connection>
+
+    <connection>
+      <mass>0.010575068354343</mass>
+      <frequency>9002.80468888800</frequency>
+      <loss>11.557406991565868</loss>
+      <collisionExponent>2.486264936249833</collisionExponent>
+      <rattlingDistance>0.00000276922984960890</rattlingDistance>
+      <component>string3</component>
+      <x1>0.950222048838355</x1>
+      <component>string2</component>
+      <x2>0.186872604554379</x2>
+    </connection>
+
+    <connection>
+      <mass>0.010648885351993</mass>
+      <frequency>2418.86338627215</frequency>
+      <loss>5.357116785741896</loss>
+      <collisionExponent>1.784454039068336</collisionExponent>
+      <rattlingDistance>0.00000046171390631154</rattlingDistance>
+      <component>string4</component>
+      <x1>0.034446080502909</x1>
+      <component>string3</component>
+      <x2>0.489764395788231</x2>
+    </connection>
+
+    <connection>
+      <mass>0.002576130816775</mass>
+      <frequency>5217.61282626275</frequency>
+      <loss>13.491293058687772</loss>
+      <collisionExponent>2.310955780355113</collisionExponent>
+      <rattlingDistance>0.00000097131781235848</rattlingDistance>
+      <component>string5</component>
+      <x1>0.438744359656398</x1>
+      <component>string4</component>
+      <x2>0.445586200710899</x2>
+    </connection>
+
+    <connection>
+      <mass>0.010705927817606</mass>
+      <frequency>10157.35525189067</frequency>
+      <loss>14.339932477575505</loss>
+      <collisionExponent>1.342373375623124</collisionExponent>
+      <rattlingDistance>0.00000823457828327293</rattlingDistance>
+      <component>string6</component>
+      <x1>0.381558457093008</x1>
+      <component>string5</component>
+      <x2>0.646313010111265</x2>
+    </connection>
+  </guitar>
+
+
+  <output interpolated="true">
+    <component>string1</component>
+    <x>0.9</x>
+    <pan>0.314723686393179</pan>
+  </output>
+  <output interpolated="true">
+    <component>string2</component>
+    <x>0.9</x>
+    <pan>0.405791937075619</pan>
+  </output>
+  <output interpolated="true">
+    <component>string3</component>
+    <x>0.9</x>
+    <pan>-0.373013183706494</pan>
+  </output>
+  <output interpolated="true">
+    <component>string4</component>
+    <x>0.9</x>
+    <pan>0.413375856139019</pan>
+  </output>
+  <output interpolated="true">
+    <component>string5</component>
+    <x>0.9</x>
+    <pan>0.132359246225410</pan>
+  </output>
+  <output interpolated="true">
+    <component>string6</component>
+    <x>0.9</x>
+    <pan>-0.402459595000590</pan>
+  </output>
+</instrument>

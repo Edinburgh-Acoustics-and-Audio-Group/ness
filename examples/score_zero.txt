@@ -1,0 +1,11 @@
+highpass off   # no high-pass filter
+duration 4.0   # one second simulation
+
+# define strikes
+strike 0.5 plat1 0.4 0.7 0.002 400000.0
+strike 0.75 plat1 0.5 0.7 0.002 100000.0
+strike 1.25 plat1 0.6 0.7 0.002 400000.0
+strike 1.5 plat1 0.7 0.7 0.002 100000.0
+
+# define a bowing action
+bow 3.0 plat1 0.3 0.9 4.0 20.3 20.8 1.1 0.02

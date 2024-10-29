@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<instrument>
+  <bowedString name="string">
+    <instrumentType>viola</instrumentType>
+    <instrumentIndex>1</instrumentIndex>
+  </bowedString>
+  <output>
+    <component>string1</component>
+    <x>0.99</x>
+    <pan>0.0</pan>
+  </output>
+  <output>
+    <component>string2</component>
+    <x>0.99</x>
+    <pan>0.0</pan>
+  </output>
+</instrument>

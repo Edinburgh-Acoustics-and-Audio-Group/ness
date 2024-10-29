@@ -1,0 +1,7 @@
+duration 3.0
+
+highpass on
+
+strike 0.0 comp1 0.5 0.5 0.001 100.0
+bow 0.5 comp2 0.4 0.6 150.0 120.0 0.02 10.0 0.001
+audio test.wav 1.0 comp2 0.3 0.7 1.0

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<instrument>
+  <samplerate>44100</samplerate>
+  <fretboard name="fretboard">
+    <length>0.68</length>
+    <density>7850</density>
+    <tension>12.1</tension>
+    <youngsModulus>2e11</youngsModulus>
+    <radius>0.0002</radius>
+    <t60_0>15.0</t60_0>
+    <t60_1000>5.0</t60_1000>
+    <numFrets>24</numFrets>
+    <barrierHeight>-0.002</barrierHeight>
+    <barrierCurvature>-0.0005</barrierCurvature>
+    <fretHeight>-0.001</fretHeight>
+    <K>1e10</K>
+    <alpha>1.3</alpha>
+    <beta>10.0</beta>
+    <iterations>15</iterations>
+  </fretboard>
+  <output>
+    <component>fretboard</component>
+    <x>0.9</x>
+    <pan>-1.0</pan>
+  </output>
+  <output>
+    <component>fretboard</component>
+    <x>0.95</x>
+    <pan>1.0</pan>
+  </output>
+</instrument>

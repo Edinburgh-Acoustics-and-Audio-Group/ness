@@ -1,0 +1,8 @@
+# mlversion 1.0
+plate 1
+
+output 0.67 0.48 0.0
+output 0.53 0.22 0.0
+output 0.81 0.44 0.0
+output 0.31 0.51 0.0
+output 0.21 0.72 0.0

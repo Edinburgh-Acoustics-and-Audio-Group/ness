@@ -1,0 +1,39 @@
+# Example instrument file for the Zero Point 1 code
+#
+#
+#
+# Zero Point 1 Instrument Format:
+# plate <name> <material> <name> <thickness> <tension> <X size> <Y size> 
+#       <T60 at 0Hz> <T60 at 1000Hz> <boundary condition type>
+# connection <component 1> <component 2> <x1> <y1> <x2> <y2> <stiffness>
+#        <nonlinearity exponent> <one sided> <offset>
+# output <component <X> <Y> <pan>
+# samplerate <sampling rate in Hz>
+# 
+# For more information see http://www.ness-music.eu/user-documentation
+#
+#############################################################################
+#
+# Code version (needs to be a comment)
+# zcversion 0.1
+#
+# Sample rate
+samplerate 44100
+
+# Define the instrument components
+plate plat1 aluminium 0.004 10 0.258524242999646 0.294567849006529 10 8 1
+plate plat2 aluminium 0.004 10 0.367098931320229 0.782355669056369 10 8 1
+plate plat3 steel 0.004 10 0.528128911522990 0.774300168945767 10 8 1
+plate plat4 aluminium 0.004 10 0.774504101260578 0.491225389233705 10 8 1
+plate plat5 aluminium 0.004 10 0.778933121119566 0.680168281333280 10 8 1
+
+# Define connections between the components
+connection plat1 plat2 0.285131803176329 0.593444419493952 0.654644078347000 0.623627652811765 100000 1 1 0.823457828327293
+connection plat1 plat2 0.453056769575765 0.221427007144514 0.645879480874950 0.219099707826452 100000 1 1 0.694828622975817
+connection plat1 plat2 0.749441315113440 0.709477583521266 0.435336211720501 0.366153790976534 100000 1 1 0.317099480060861
+connection plat1 plat2 0.675324397735733 0.760395948654530 0.593286734106534 0.227702834378692 100000 1 1 0.950222048838355
+connection plat1 plat2 0.775695455835742 0.607241092914664 0.302712012686937 0.258279068741509 100000 1 1 0.034446080502909
+
+# Define the outputs
+output plat1 0.7 0.8 -0.626254790891243
+output plat2 0.4 0.2 -0.020471208423538

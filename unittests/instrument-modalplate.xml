@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<instrument>
+  <modalPlate name="modalplate">
+    <type>1</type>
+  </modalPlate>
+  <output>
+    <component>modalplate</component>
+    <x>0.671</x>
+    <y>0.482</y>
+    <pan>0.0</pan>
+  </output>
+</instrument>

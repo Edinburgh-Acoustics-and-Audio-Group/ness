@@ -1,0 +1,8 @@
+# comment, should be ignored
+
+token arg1 2
+
+    anothertoken	arg3   4.0  # inline comment
+
+finaltoken
+

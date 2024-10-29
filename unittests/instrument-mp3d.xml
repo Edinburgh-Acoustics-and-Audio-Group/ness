@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<instrument>
+  <samplerate>32000</samplerate>
+  <airbox name="airbox">
+    <lx>1.32</lx>
+    <ly>1.32</ly>
+    <lz>1.37</lz>
+    <c_a>340</c_a>
+    <rho_a>1.21</rho_a>
+    <plate name="plat1">
+      <lx>0.81</lx>
+      <ly>0.87</ly>
+      <cx>0.0</cx>
+      <cy>0.0</cy>
+      <cz>0.22</cz>
+      <density>7800.0</density>
+      <thickness>0.002</thickness>
+      <youngsModulus>8e11</youngsModulus>
+      <poissonsRatio>0.33</poissonsRatio>
+      <t60>4.0</t60>
+      <sig1>0.001</sig1>
+    </plate>
+    <plate name="plat2">
+      <lx>0.39</lx>
+      <ly>0.42</ly>
+      <cx>-0.1</cx>
+      <cy>-0.1</cy>
+      <cz>0.0</cz>
+      <density>7800.0</density>
+      <thickness>0.002</thickness>
+      <youngsModulus>8e11</youngsModulus>
+      <poissonsRatio>0.33</poissonsRatio>
+      <t60>4.0</t60>
+      <sig1>0.001</sig1>
+    </plate>
+    <plate name="plat3">
+      <lx>0.65</lx>
+      <ly>0.61</ly>
+      <cx>0.1</cx>
+      <cy>0.1</cy>
+      <cz>-0.27</cz>
+      <density>7800.0</density>
+      <thickness>0.002</thickness>
+      <youngsModulus>8e11</youngsModulus>
+      <poissonsRatio>0.33</poissonsRatio>
+      <t60>4.0</t60>
+      <sig1>0.001</sig1>
+    </plate>
+  </airbox>
+
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.505</x>
+    <y>0.51</y>
+    <z>0.8</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.2</x>
+    <y>0.506</y>
+    <z>0.575</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.2</x>
+    <y>0.506</y>
+    <z>0.425</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.505</x>
+    <y>0.51</y>
+    <z>0.2</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.505</x>
+    <y>0.85</y>
+    <z>0.505</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.495</x>
+    <y>0.15</y>
+    <z>0.495</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.8</x>
+    <y>0.506</y>
+    <z>0.575</z>
+  </output>
+  <output type="pressure">
+    <component>airbox</component>
+    <x>0.8</x>
+    <y>0.506</y>
+    <z>0.425</z>
+  </output>
+
+  <output type="difference">
+    <component>plat1</component>
+    <x>0.570710678118655</x>
+    <y>0.556568542494924</y>
+  </output>
+  <output type="difference">
+    <component>plat1</component>
+    <x>0.3585786437626905</x>
+    <y>0.528284271247462</y>
+  </output>
+  <output type="difference">
+    <component>plat2</component>
+    <x>0.570710678118655</x>
+    <y>0.556568542494924</y>
+  </output>
+  <output type="difference">
+    <component>plat2</component>
+    <x>0.3585786437626905</x>
+    <y>0.528284271247462</y>
+  </output>
+  <output type="difference">
+    <component>plat3</component>
+    <x>0.570710678118655</x>
+    <y>0.556568542494924</y>
+  </output>
+  <output type="difference">
+    <component>plat3</component>
+    <x>0.3585786437626905</x>
+    <y>0.528284271247462</y>
+  </output>
+</instrument>

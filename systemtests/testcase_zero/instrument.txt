@@ -1,0 +1,12 @@
+samplerate 44100
+
+plate plat1 steel 0.002 10.0 1.5 1.5 10.0 6.0 4
+plate plat2 steel 0.002 10.0 1.5 1.5 10.0 6.0 4
+plate plat3 steel 0.002 10.0 1.5 1.5 10.0 6.0 4
+plate plat4 steel 0.002 10.0 1.5 1.5 10.0 6.0 4
+
+connection plat1 plat2 0.8 0.4 0.6 0.7 10000.0 10000000.0 1000000.0
+connection plat3 plat2 0.8 0.4 0.6 0.7 10000.0 10000000.0 1000000.0
+connection plat3 plat4 0.8 0.4 0.6 0.7 10000.0 10000000.0 1000000.0
+
+output plat1 0.2 0.5 -1.0

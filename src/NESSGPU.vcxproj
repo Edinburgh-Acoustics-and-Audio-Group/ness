@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Airbox.cpp" />
+    <ClCompile Include="AirboxIndexed.cpp" />
+    <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="BowedString.cpp" />
+    <ClCompile Include="BrassInstrument.cpp" />
+    <ClCompile Include="BrassInstrument_avx.cpp" />
+    <ClCompile Include="BreakpointFunction.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Component1D.cpp" />
+    <ClCompile Include="Component2D.cpp" />
+    <ClCompile Include="Component3D.cpp" />
+    <ClCompile Include="ComponentString.cpp" />
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="ConnectionNet1.cpp" />
+    <ClCompile Include="ConnectionP2P.cpp" />
+    <ClCompile Include="ConnectionZero.cpp" />
+    <ClCompile Include="ConnectionZeroPt1.cpp" />
+    <ClCompile Include="Embedding.cpp" />
+    <ClCompile Include="Fretboard.cpp" />
+    <ClCompile Include="GlobalSettings.cpp" />
+    <ClCompile Include="GuitarString.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="InputBow.cpp" />
+    <ClCompile Include="InputLips.cpp" />
+    <ClCompile Include="InputModalSine.cpp" />
+    <ClCompile Include="InputModalStrike.cpp" />
+    <ClCompile Include="InputPluck.cpp" />
+    <ClCompile Include="InputSample.cpp" />
+    <ClCompile Include="InputStrike.cpp" />
+    <ClCompile Include="InputValve.cpp" />
+    <ClCompile Include="InputWav.cpp" />
+    <ClCompile Include="Instrument.cpp" />
+    <ClCompile Include="InstrumentParser.cpp" />
+    <ClCompile Include="InstrumentParserBowedString.cpp" />
+    <ClCompile Include="InstrumentParserBrass.cpp" />
+    <ClCompile Include="InstrumentParserGuitar.cpp" />
+    <ClCompile Include="InstrumentParserModal.cpp" />
+    <ClCompile Include="InstrumentParserMP3D.cpp" />
+    <ClCompile Include="InstrumentParserSoundboard.cpp" />
+    <ClCompile Include="InstrumentParserXML.cpp" />
+    <ClCompile Include="InstrumentParserZero.cpp" />
+    <ClCompile Include="InstrumentParserZeroPt1.cpp" />
+    <ClCompile Include="lib\arralloc.c" />
+    <ClCompile Include="lib\banded.c" />
+    <ClCompile Include="lib\csrmatrix.c" />
+    <ClCompile Include="lib\pcg.c" />
+    <ClCompile Include="lib\sse.c" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MaterialsManager.cpp" />
+    <ClCompile Include="matgen.c" />
+    <ClCompile Include="MathUtil.cpp" />
+    <ClCompile Include="MatlabFunction.cpp" />
+    <ClCompile Include="MatlabFunction_ClusterGen.cpp" />
+    <ClCompile Include="MatlabFunction_FretDefGen.cpp" />
+    <ClCompile Include="MatlabFunction_PluckGen.cpp" />
+    <ClCompile Include="MatlabFunction_StringDefGen.cpp" />
+    <ClCompile Include="MatlabFunction_StrumGen.cpp" />
+    <ClCompile Include="MatlabFunction_StrumGenMulti.cpp" />
+    <ClCompile Include="MatlabParser.cpp" />
+    <ClCompile Include="matrix_unroll.c" />
+    <ClCompile Include="ModalPlate.cpp" />
+    <ClCompile Include="ModalPlate_avx.cpp" />
+    <ClCompile Include="Output.cpp" />
+    <ClCompile Include="OutputDifference.cpp" />
+    <ClCompile Include="OutputModal.cpp" />
+    <ClCompile Include="OutputPressure.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Plate.cpp" />
+    <ClCompile Include="PlateEmbedded.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="ScoreParser.cpp" />
+    <ClCompile Include="ScoreParserBowedString.cpp" />
+    <ClCompile Include="ScoreParserBrass.cpp" />
+    <ClCompile Include="ScoreParserGuitar.cpp" />
+    <ClCompile Include="ScoreParserModal.cpp" />
+    <ClCompile Include="ScoreParserMP3D.cpp" />
+    <ClCompile Include="ScoreParserSoundboard.cpp" />
+    <ClCompile Include="ScoreParserXML.cpp" />
+    <ClCompile Include="ScoreParserZero.cpp" />
+    <ClCompile Include="ScoreParserZeroPt1.cpp" />
+    <ClCompile Include="SettingsManager.cpp" />
+    <ClCompile Include="SoundBoard.cpp" />
+    <ClCompile Include="StringWithFrets.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskModalPlateEnd.cpp" />
+    <ClCompile Include="TaskModalPlateRow.cpp" />
+    <ClCompile Include="TaskWholeComponent.cpp" />
+    <ClCompile Include="TaskWholeConnection.cpp" />
+    <ClCompile Include="WavReader.cpp" />
+    <ClCompile Include="WavWriter.cpp" />
+    <ClCompile Include="WorkerThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Airbox.h" />
+    <ClInclude Include="AirboxIndexed.h" />
+    <ClInclude Include="Bar.h" />
+    <ClInclude Include="BowedString.h" />
+    <ClInclude Include="BrassInstrument.h" />
+    <ClInclude Include="BreakpointFunction.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Component1D.h" />
+    <ClInclude Include="Component2D.h" />
+    <ClInclude Include="Component3D.h" />
+    <ClInclude Include="ComponentString.h" />
+    <ClInclude Include="Connection.h" />
+    <ClInclude Include="ConnectionNet1.h" />
+    <ClInclude Include="ConnectionP2P.h" />
+    <ClInclude Include="ConnectionZero.h" />
+    <ClInclude Include="ConnectionZeroPt1.h" />
+    <ClInclude Include="Embedding.h" />
+    <ClInclude Include="Fretboard.h" />
+    <ClInclude Include="GlobalSettings.h" />
+    <ClInclude Include="GPUAirboxIndexed.h" />
+    <ClInclude Include="GPUConnectionZero.h" />
+    <ClInclude Include="GPUConnectionZeroPt1.h" />
+    <ClInclude Include="GPUEmbedding.h" />
+    <ClInclude Include="GPUInputBow.h" />
+    <ClInclude Include="GPUInputModalSine.h" />
+    <ClInclude Include="GPUInputModalStrike.h" />
+    <ClInclude Include="GPUInputSample.h" />
+    <ClInclude Include="GPUModalPlate.h" />
+    <ClInclude Include="GPUOutput.h" />
+    <ClInclude Include="GPUOutputModal.h" />
+    <ClInclude Include="GPUPlate.h" />
+    <ClInclude Include="GPUUtil.h" />
+    <ClInclude Include="GuitarString.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputBow.h" />
+    <ClInclude Include="InputLips.h" />
+    <ClInclude Include="InputModalSine.h" />
+    <ClInclude Include="InputModalStrike.h" />
+    <ClInclude Include="InputPluck.h" />
+    <ClInclude Include="InputSample.h" />
+    <ClInclude Include="InputStrike.h" />
+    <ClInclude Include="InputValve.h" />
+    <ClInclude Include="InputWav.h" />
+    <ClInclude Include="Instrument.h" />
+    <ClInclude Include="InstrumentParser.h" />
+    <ClInclude Include="InstrumentParserBowedString.h" />
+    <ClInclude Include="InstrumentParserBrass.h" />
+    <ClInclude Include="InstrumentParserGuitar.h" />
+    <ClInclude Include="InstrumentParserModal.h" />
+    <ClInclude Include="InstrumentParserMP3D.h" />
+    <ClInclude Include="InstrumentParserSoundboard.h" />
+    <ClInclude Include="InstrumentParserXML.h" />
+    <ClInclude Include="InstrumentParserZero.h" />
+    <ClInclude Include="InstrumentParserZeroPt1.h" />
+    <ClInclude Include="lib\arralloc.h" />
+    <ClInclude Include="lib\banded.h" />
+    <ClInclude Include="lib\csrmatrix.h" />
+    <ClInclude Include="lib\pcg.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MaterialsManager.h" />
+    <ClInclude Include="matgen.h" />
+    <ClInclude Include="MathUtil.h" />
+    <ClInclude Include="MatlabFunction.h" />
+    <ClInclude Include="MatlabFunction_ClusterGen.h" />
+    <ClInclude Include="MatlabFunction_FretDefGen.h" />
+    <ClInclude Include="MatlabFunction_PluckGen.h" />
+    <ClInclude Include="MatlabFunction_StringDefGen.h" />
+    <ClInclude Include="MatlabFunction_StrumGen.h" />
+    <ClInclude Include="MatlabFunction_StrumGenMulti.h" />
+    <ClInclude Include="MatlabParser.h" />
+    <ClInclude Include="matrix_unroll.h" />
+    <ClInclude Include="ModalPlate.h" />
+    <ClInclude Include="Output.h" />
+    <ClInclude Include="OutputDifference.h" />
+    <ClInclude Include="OutputModal.h" />
+    <ClInclude Include="OutputPressure.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Plate.h" />
+    <ClInclude Include="PlateEmbedded.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="ScoreParser.h" />
+    <ClInclude Include="ScoreParserBowedString.h" />
+    <ClInclude Include="ScoreParserBrass.h" />
+    <ClInclude Include="ScoreParserGuitar.h" />
+    <ClInclude Include="ScoreParserModal.h" />
+    <ClInclude Include="ScoreParserMP3D.h" />
+    <ClInclude Include="ScoreParserSoundboard.h" />
+    <ClInclude Include="ScoreParserXML.h" />
+    <ClInclude Include="ScoreParserZero.h" />
+    <ClInclude Include="ScoreParserZeroPt1.h" />
+    <ClInclude Include="SettingsManager.h" />
+    <ClInclude Include="SoundBoard.h" />
+    <ClInclude Include="StringWithFrets.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TaskModalPlateEnd.h" />
+    <ClInclude Include="TaskModalPlateRow.h" />
+    <ClInclude Include="TaskWholeComponent.h" />
+    <ClInclude Include="TaskWholeConnection.h" />
+    <ClInclude Include="WavReader.h" />
+    <ClInclude Include="WavWriter.h" />
+    <ClInclude Include="WorkerThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="GPUAirboxIndexed.cu" />
+    <CudaCompile Include="GPUConnectionZero.cu" />
+    <CudaCompile Include="GPUConnectionZeroPt1.cu" />
+    <CudaCompile Include="GPUEmbedding.cu" />
+    <CudaCompile Include="GPUInputBow.cu" />
+    <CudaCompile Include="GPUInputModalSine.cu" />
+    <CudaCompile Include="GPUInputModalStrike.cu" />
+    <CudaCompile Include="GPUInputSample.cu" />
+    <CudaCompile Include="GPUModalPlate.cu" />
+    <CudaCompile Include="GPUOutput.cu" />
+    <CudaCompile Include="GPUOutputModal.cu" />
+    <CudaCompile Include="GPUPlate.cu" />
+    <CudaCompile Include="GPUUtil.cu" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7A70599-FCA5-4BBB-89B5-173BBF455252}</ProjectGuid>
+    <RootNamespace>NESSGPU</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.5.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>ness-framework</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;WIN64;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;USE_SSE;USE_AVX;USE_GPU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\james\Documents\work\ness\windows\libiconv-win-build\include;C:\Users\james\Documents\work\ness\windows\libxml2-win-build\include;C:\Users\james\Documents\work\ness\windows\NESSGPU\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libxml2-static.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\james\Documents\work\ness\windows\libxml2-win-build\build-VS2019\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;WIN64;NDEBUG;_CONSOLE;USE_SSE;USE_AVX;USE_GPU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\james\Documents\work\ness\windows\NESSGPU\lib;C:\Users\james\Documents\work\ness\windows\libiconv-win-build\include;C:\Users\james\Documents\work\ness\windows\libxml2-win-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>libxml2.lib;libxml2-static.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\james\Documents\work\ness\windows\libxml2-win-build\build-VS2019\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.5.targets" />
+  </ImportGroup>
+</Project>

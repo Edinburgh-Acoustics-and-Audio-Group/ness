@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<instrument>
+  <bowedString name="string1">
+    <frequency>440.0</frequency>
+    <density>7e-4</density>
+    <radius>3e-4</radius>
+    <youngsModulus>2e11</youngsModulus>
+    <T60_0>10</T60_0>
+    <T60_1000>8</T60_1000>
+    <length>0.35</length>
+  </bowedString>
+  <output>
+    <component>string1</component>
+    <x>0.5</x>
+    <pan>0.0</pan>
+  </output>
+</instrument>
