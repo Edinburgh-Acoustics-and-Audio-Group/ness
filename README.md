@@ -2,6 +2,9 @@
 
 This code was developed at the University of Edinburgh as part of the 2012-2016 European Research Council funded [Next Generation Sound Synthesis project](https://www.ness.music.ed.ac.uk/). It is a physical modelling synthesis code written in C++ (with optional CUDA acceleration) that allows various musical instruments and acoustic spaces to be simulated.
 
+## Quick start user guide
+See [getting-started.md](https://github.com/Edinburgh-Acoustics-and-Audio-Group/ness/blob/main/getting-started.md) for a quick intro on how to generate audio with the models.
+
 
 ## Binary Packages
 
